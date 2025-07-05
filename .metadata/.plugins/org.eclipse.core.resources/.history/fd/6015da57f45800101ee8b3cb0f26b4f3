@@ -1,0 +1,13 @@
+package java_fundamentals;	
+public class Question_1{
+	public static void main(String[] args) {
+		if(args.length!=6) {
+			System.out.println("Please provide exactly two command-line arguements:<company><location>");
+			return;
+			}	
+	{
+	System.out.println(args[0] +" "+args[1]+" "+ args[2]);
+	System.out.println(args[3]+" "+args[4]+" "+args[5]);
+	}
+}
+}
